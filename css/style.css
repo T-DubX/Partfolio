@@ -32,6 +32,9 @@ body {
   padding: 70px 0;
   display: flex;
   align-items: center;
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
 }
 .header-text {
   margin-left: 27px;
