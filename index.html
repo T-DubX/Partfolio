@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="navbar">
+    <div class="navbar container">
       <img src="images/logo.svg" alt="Logo" />
       <nav class="navigation">
         <ul class="nav-list">
@@ -35,12 +35,120 @@
       </nav>
     </div>
     <!-- ./navbar -->
-    <header class="header">
-      <img src="images/" alt="" />
+    <header class="header container">
+      <img src="images/avatar.png" alt="" />
       <!-- /.header-photo -->
-      <div class="header-text"></div>
+      <div class="header-text">
+        <strong class="header-strong"> Привет 👋 </strong>
+        <h1 class="header-heading">
+          <span class="header-primary">
+            Я фронтенд-разработчик и веб-дизайнер</span
+          >
+          <br />
+          Меня зовут Артем Исламов и я делаю сайты для людей и компаний
+        </h1>
+        <div class="header-links">
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="" class="socila-link">
+                <img src="images/Icons/linkedin.svg" alt="" class="social-logo"
+              /></a>
+            </li>
+            <li class="social-item">
+              <a href="" class="socila-link">
+                <img src="images/Icons/twitter.svg" alt="" class="social-logo"
+              /></a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="socila-link"
+                ><img src="images/Icons/github.svg" alt="" class="social-logo"
+              /></a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="socila-link"
+                ><img
+                  src="images/Icons/stackoverflow.svg"
+                  alt=""
+                  class="social-logo"
+              /></a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="socila-link"
+                ><img src="images/Icons/youtube.svg" alt="" class="social-logo"
+              /></a>
+            </li>
+          </ul>
+          <a href="#" class="cv-download" download>
+            <img class="cv-icon" src="images/download.svg" alt="" />
+            <span class="cv-text"> Скачать резюме </span>
+          </a>
+        </div>
+        <!-- /.header-links -->
+      </div>
       <!-- /.header-text -->
     </header>
     <!-- /.header -->
+    <section class="portfolio">
+      <div class="container">
+        <h2 class="section-heading">Последние проекты</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="images/Partfolio/image01.svg" alt="" class="card-img" />
+            <div class="card-text-wrapper">
+                <h3 class="card-title">Мобильное приложение</h3>
+                <ul class="tags">
+                  <li class="tags-item"><a href="#" class="tag">HTML</a></li>
+                  <li class="tags-item"><a href="#" class="tag">CSS</a></li>
+                  <li class="tags-item"><a href="#" class="tag">JavaScript</a></li>
+                  <li class="tags-item"><a href="#" class="tag">Git</a></li>
+                  <li class="tags-item"><a href="#" class="tag">Vitejs</a></li>
+                </ul>
+                <p class="card-text">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.
+                </p>
+                <div class="card-buttons">
+                  <a href="#" class="card-button"
+                    ><img src="images/Icons/code.svg" alt="code Icon" class="card-button-icon" />Код<span
+                      class="card-button-text"
+                    ></span></a
+                  ><a href="#" class="card-button"
+                    ><img src="images/Icons/check.svg" alt="check icon" class="card-button-icon" />Демо<span
+                      class="card-button-text"
+                    ></span
+                  ></a>
+                </div>
+            </div>
+            <!-- /.card-text-wrapper -->
+          </div>
+          <div class="card">
+            <img src="images/Partfolio/image02.svg" alt="Одностраничный промо-сайт" class="card-img" />
+            <div class="card-text-wrapper">
+                <h3 class="card-title">Одностраничный промо-сайт</h3>
+                <ul class="tags">
+                  <li class="tags-item"><a href="#" class="tag">HTML</a></li>
+                  <li class="tags-item"><a href="#" class="tag">CSS</a></li>
+                </ul>
+                <p class="card-text">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.
+                </p>
+                <div class="card-buttons">
+                  <a href="#" class="card-button"
+                    ><img src="images/Icons/code.svg" alt="code Icon" class="card-button-icon" />Код<span
+                      class="card-button-text"
+                    ></span></a
+                  ><a href="#" class="card-button"
+                    ><img src="images/Icons/check.svg" alt="check icon" class="card-button-icon" />Демо<span
+                      class="card-button-text"
+                    ></span
+                  ></a>
+                </div>
+            </div>
+            <!-- /.card-text-wrapper -->
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
