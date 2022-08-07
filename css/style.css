@@ -113,7 +113,9 @@ body {
   line-height: 150%;
   color: #211b12;
 }
-
+.avatar-icon {
+  max-width: 250px;
+}
 .tags {
   list-style-type: none;
   padding: 0;
